@@ -1,0 +1,13 @@
+{
+    "NOM": "STRING",
+    "PRENOM": "STRING",
+    "ADRESSE": {
+
+    },
+    "POSTE": "STRING",
+    "EX_PRO": [],
+    "EX_PRO": [],
+    "LOISIRS": [],
+    "COMPETENCES": [],
+    "QUALITES": ["STRING", "STRING", "STRING"]
+}
