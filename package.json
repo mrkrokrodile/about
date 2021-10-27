@@ -4,7 +4,7 @@
   "description": "",
   "homepage": "https://mrkrokrodile.github.io/about",
   "scripts": {
-    "start": "parcel public/index.html --open",
+    "start": "rm -r dist && parcel build public/index.html --public-url ./",
     "publish": "gh-pages -d dist"
   },
   "keywords": [],

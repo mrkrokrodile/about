@@ -3,7 +3,12 @@ import ReactDOM from "react-dom";
 
 const App = () => {
     return (
-        <h1>Homepage</h1>
+        <div>
+             <h1>Homepage</h1>
+             <h2>HOLA QUETAL MUY BIEN Y TOO</h2>
+        </div>
+       
+        
     )
 }
 
