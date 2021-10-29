@@ -10,9 +10,14 @@ const App = () => {
         <div>
             <div id="homepage">
 
+                <div>
+
                 <Sideinfo />
-               
+                </div>
+               <div>
+
                <Mainblock />
+               </div>
               
             </div>
            

@@ -32,7 +32,7 @@ export const Mainblock  = () => {
                  <div className="skills">
                  <img className="logo" src="https://img.icons8.com/fluency/96/000000/node-js.png"/>
 
-                 <progress class="nes-progress" value="20" max="100"></progress>
+                 <progress className="nes-progress" value="20" max="100"></progress>
                  </div>
 
                  <div className="skills">
