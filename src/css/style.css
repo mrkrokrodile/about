@@ -3,26 +3,33 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Press Start 2P', cursive;
+    scroll-behavior: smooth;
     
 }
 
 #homepage {
    display: flex;
+   
 }
 
 #main-block { 
-    margin: 25px;
-    width: 80vw;
+    margin: 15px;
+    width: 70vw;
+    margin-left: 25vw;
 }
 
-/* #block {
-    justify-content: flex-end;
+#photopixel {
+   width: 10vh;
+   height: 15vw; 
+   
+}
 
-} */
 
 .nes-progress {
     margin-top:20px ;
 }
+
+/* SIDE BAR */
 
 #side {
     text-align: center;
@@ -33,7 +40,19 @@
     flex-flow: column;
     height: 100vh;
     width: 20vw;
-    position: fixed;
+    height: 100%;
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 20px;
+    scroll-behavior: smooth;
+    overflow-y: hidden;
+}
+
+#myname {
+    margin: 15px;
 }
 
 .containers {

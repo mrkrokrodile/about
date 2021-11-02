@@ -1,4 +1,5 @@
 import React from "react";
+import photopixel from './img/photopixel.png';
 
 
 export const Mainblock  = () => {
@@ -7,6 +8,26 @@ export const Mainblock  = () => {
     
     <div id="main-block">
     <div className="nes-container is-rounded">
+
+        <div className="containers">
+             <div className="nes-container with-title is-centered">
+                  
+             <section class="message -right">
+     
+        <div class="nes-balloon from-right">
+          <p>Je suis un développeur web, j'ai
+             pour objectif de devenir full
+             stack, et je suis en recherche de
+             stage.
+        </p>
+        </div>
+        <img id="photopixel" src={photopixel}></img>
+      </section>
+
+                  
+             </div> 
+        </div>
+
         <div className="containers">
              <div className="nes-container is-rounded with-title is-centered">
                  <p className="title">Connaissances</p>
