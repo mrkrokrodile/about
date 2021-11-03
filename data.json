@@ -1,13 +1,18 @@
 {
-    "NOM": "STRING",
-    "PRENOM": "STRING",
-    "ADRESSE": {
-
+    "USER": {
+         "NOM": "Beurel",
+         "PRENOM": "Gaëtan",
+         "TEL": "0786210716",
+         "POSTE": "Developpeur Web",
+         "EMAIL": "gaetan.beurel@gmail.com",
+         "PERMIS": "Permis B et véhicule"
     },
-    "POSTE": "STRING",
-    "EX_PRO": [],
-    "EX_PRO": [],
-    "LOISIRS": [],
-    "COMPETENCES": [],
-    "QUALITES": ["STRING", "STRING", "STRING"]
+    "ADRESSE": {
+        "NUM": "82",
+        "RUE": "rue Jacque Cartier",
+        "CODE": "35430",
+        "VILLE": "LA VILLE ES NONAIS"
+    },
+    "LOISIRS": ["Jeux vidéos", "Jeux de société", "Marche à pieds"],
+    "QUALITES": ["Minutieux", "Patient", "Flexible", "Créatif", "esprit d'équipe"]
 }

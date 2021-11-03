@@ -15,7 +15,7 @@ h2 {
 
 #cadrephoto {
     border: 1;
-    margin: 0 50px 40px 50px;
+    margin: 0 7vw 6vh 7vw;
     border-width: 6px;
     border-style: solid;
     border-color: black;
@@ -32,5 +32,92 @@ h2 {
     font-size: 13px;
     text-align: left;
     margin-top: 3px;
+    overflow-wrap: break-word;
 }
 
+.nes-container {
+    padding:20px 0px 0px 10px ;
+}
+
+/* RESPONSIVE */
+
+@media only screen and (max-width: 1024px) {
+    #photo, #cadrephoto {
+        display: none;
+    }
+
+    .titre-side {
+        font-size: 14px;
+    }
+
+    .text-side {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+
+    #photopixel {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .titre-side {
+        font-size: 12px;
+    }
+
+    .textside {
+        text-align: center;
+        font-size: 10px;
+        padding-bottom: 2%;
+    }
+
+    .nes-progress {
+        display: none;
+    }
+
+    .skills {
+        display: block;
+    }
+
+  
+
+    #grand-titre {
+        font-size: 15px;
+    }
+
+    h2 {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+
+    #grand-titre {
+        font-size: 12px;
+        text-align: center;
+    }
+
+    h2 {
+        font-size: 9px;
+        text-align: center;
+    }
+
+    #side {
+        padding: 2%;
+    }
+
+    #myname {
+        margin: 2%;
+    }
+
+    .titre-side {
+        font-size: 8px;
+    }
+
+    .textside {
+        font-size: 8px;
+    }
+    
+}

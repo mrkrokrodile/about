@@ -2,6 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 import { Mainblock } from "./main-block";
 import { Sideinfo } from "./sideinfo";
+import data from '../data.json';
 
 
 
@@ -12,7 +13,7 @@ const App = () => {
 
                 <div>
 
-                <Sideinfo />
+                <Sideinfo adresse={data.ADRESSE}  user={data.USER} loisirs={data.LOISIRS} qualites={data.QUALITES}/>
                 </div>
                <div>
 
