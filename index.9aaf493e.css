@@ -97,15 +97,18 @@ li {
     list-style: none;
 }
 
-@media only screen and (max-width: 1024px) {
+@media screen and (max-width: 992px) {
     
 }
 
-@media only screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
 
+    #photopixel {
+        display: none;
+    }
 }
 
-@media only screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
     .containers {
         margin:20px;
         padding: 0px;
@@ -119,12 +122,41 @@ li {
          font-size: 12px!important;
      }
 
+     .nes-container {
+        padding: 0;
+    }
+
+    #photopixel {
+        display: none;
+    }
+
+    #textpresent {
+        font-size: 12px;
+    }
+
  
 }
 
-@media only screen and (max-width: 360px) {
+
+@media screen and (max-width: 420px) {
+    #textpresent {
+        font-size: 10px;
+    }
+
+    .nes-container {
+        padding: 0!important;
+    }
+
+    .nes-balloon {
+        padding: 0;
+    }
+
+    
+}
+
+@media screen and (max-width: 360px) {
 .nes-container {
- padding: 2%!important;
+ padding: 0!important;
 }
 
 #textpresent {
@@ -136,8 +168,13 @@ li {
 }
 
 .title {
-    font-size: 10px!important;
+    font-size: 10px;
 }
+
+#photopixel {
+    display: none;
+}
+
 }
 
 
